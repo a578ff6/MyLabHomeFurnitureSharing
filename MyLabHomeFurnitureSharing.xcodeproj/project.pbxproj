@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		938BCE062AD7CE5B005CC01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE052AD7CE5B005CC01E /* AppDelegate.swift */; };
 		938BCE082AD7CE5B005CC01E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE072AD7CE5B005CC01E /* SceneDelegate.swift */; };
-		938BCE0A2AD7CE5B005CC01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE092AD7CE5B005CC01E /* ViewController.swift */; };
 		938BCE0D2AD7CE5B005CC01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938BCE0B2AD7CE5B005CC01E /* Main.storyboard */; };
 		938BCE0F2AD7CE5C005CC01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938BCE0E2AD7CE5C005CC01E /* Assets.xcassets */; };
 		938BCE122AD7CE5C005CC01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938BCE102AD7CE5C005CC01E /* LaunchScreen.storyboard */; };
+		938BCE1A2AD7D47C005CC01E /* FurnitureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE192AD7D47C005CC01E /* FurnitureDetailViewController.swift */; };
+		938BCE1C2AD7D48C005CC01E /* FurnitureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE1B2AD7D48C005CC01E /* FurnitureTableViewController.swift */; };
+		938BCE1E2AD7DA6A005CC01E /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE1D2AD7DA6A005CC01E /* Furniture.swift */; };
+		938BCE202AD7DAA8005CC01E /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE1F2AD7DAA8005CC01E /* Room.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		938BCE022AD7CE5B005CC01E /* MyLabHomeFurnitureSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLabHomeFurnitureSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938BCE052AD7CE5B005CC01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938BCE072AD7CE5B005CC01E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		938BCE092AD7CE5B005CC01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		938BCE0C2AD7CE5B005CC01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938BCE0E2AD7CE5C005CC01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938BCE112AD7CE5C005CC01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938BCE132AD7CE5C005CC01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938BCE192AD7D47C005CC01E /* FurnitureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureDetailViewController.swift; sourceTree = "<group>"; };
+		938BCE1B2AD7D48C005CC01E /* FurnitureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureTableViewController.swift; sourceTree = "<group>"; };
+		938BCE1D2AD7DA6A005CC01E /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		938BCE1F2AD7DAA8005CC01E /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				938BCE052AD7CE5B005CC01E /* AppDelegate.swift */,
 				938BCE072AD7CE5B005CC01E /* SceneDelegate.swift */,
-				938BCE092AD7CE5B005CC01E /* ViewController.swift */,
-				938BCE0B2AD7CE5B005CC01E /* Main.storyboard */,
+				938BCE1D2AD7DA6A005CC01E /* Furniture.swift */,
+				938BCE1F2AD7DAA8005CC01E /* Room.swift */,
+				938BCE192AD7D47C005CC01E /* FurnitureDetailViewController.swift */,
+				938BCE1B2AD7D48C005CC01E /* FurnitureTableViewController.swift */,
 				938BCE0E2AD7CE5C005CC01E /* Assets.xcassets */,
 				938BCE102AD7CE5C005CC01E /* LaunchScreen.storyboard */,
 				938BCE132AD7CE5C005CC01E /* Info.plist */,
+				938BCE0B2AD7CE5B005CC01E /* Main.storyboard */,
 			);
 			path = MyLabHomeFurnitureSharing;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938BCE0A2AD7CE5B005CC01E /* ViewController.swift in Sources */,
+				938BCE1C2AD7D48C005CC01E /* FurnitureTableViewController.swift in Sources */,
 				938BCE062AD7CE5B005CC01E /* AppDelegate.swift in Sources */,
+				938BCE202AD7DAA8005CC01E /* Room.swift in Sources */,
+				938BCE1E2AD7DA6A005CC01E /* Furniture.swift in Sources */,
+				938BCE1A2AD7D47C005CC01E /* FurnitureDetailViewController.swift in Sources */,
 				938BCE082AD7CE5B005CC01E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
